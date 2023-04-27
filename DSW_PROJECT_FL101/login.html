@@ -11,15 +11,15 @@
 </head>
 <body>
     <div class="outer-space">
-
+    <form>
     <div class="login">
         <h1 class="title"><img src="a69d7b04203d27f5d2938fbf779bbc75.png" id="img-dollar">Financial Literacy 101 </h1>
         <h2 class="title">Register</h2>
         <div class="UserInformation">
             <label for="name" class="labels" >E-Mail</label>
-            <input type="email" id="email" class="input"  class="UserInformation">
+            <input type="email" id="email" class="input"  class="UserInformation" required>
             <label for="name" class="labels">Password</label>
-            <input type="password" class="input" class="UserInformation">
+            <input type="password" class="input" class="UserInformation" required>
 
             <img src="email.png"class="email-logo">
             <button id="emailbtn" class="buttons" onclick="log()"> Continue with E-Mail</button>
@@ -42,6 +42,7 @@
       
        
     </div>
+        </form>
     </div>
     <script src="login.js"></script>
 </body>
